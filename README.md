@@ -32,28 +32,39 @@ A collection of 21 Python projects built by following [Tech With Tim's 9-hour be
 
 ---
 
-## 🛠️ Setup
+## 🎯 Goal
 
-**Requirements:** Python 3.10+
+I completed CS50P but lost most of it. This repo is me rebuilding Python through projects — hands-on, no rewatching lectures. Each project is built independently, not copied along.
 
-Each project has its own folder and README with specific instructions. Some projects have their own dependencies — check the individual README before running.
-
-To get started:
-
-```bash
-git clone https://github.com/SomyaJain0308/python-projects.git
-cd python-projects
-```
-
-Then navigate into any project folder and follow its README.
+The end goal is to get solid enough in Python to move into AI red teaming (prompt injection, LLM security testing, PyRIT, etc.).
 
 ---
 
-## 🎯 Goal
+## 🔄 My Workflow
 
-I completed CS50P but lost most of it. This repo is me rebuilding Python through projects — hands-on, no rewatching lectures. Each project is rebuilt independently after watching Tim's walkthrough, not just copied along.
+Every project in this repo follows the same process:
 
-The end goal is to get solid enough in Python to move into AI red teaming (prompt injection, LLM security testing, PyRIT, etc.).
+1. **Never Watch** Tech With Tim's walkthrough for the project
+2. **Ask Gemini** for a breakdown of the project's key features and concepts
+3. **Paste that breakdown as a docstring** at the top of the Python file — so the intent is documented before a single line of code is written
+4. **Build it myself from scratch** without copying Tim's code
+5. **Ask Claude** to generate the project README and give an honest review of what to improve
+
+The docstring at the top of each file (from step 3) looks like this:
+
+```python
+"""
+The Quiz Game is a beginner-friendly project designed to introduce fundamental
+programming concepts like input handling, string manipulation, and basic conditional logic.
+
+User Interaction: The program prompts the user to play and collects their answers.
+Logic & Flow: It checks if the user's input matches the correct answer using .lower().
+Score Tracking: A score variable increments on each correct answer.
+Feedback: The program provides a final score summary after all questions.
+"""
+```
+
+This keeps the code self-documenting and makes it easy to see what each project was supposed to teach.
 
 ---
 
