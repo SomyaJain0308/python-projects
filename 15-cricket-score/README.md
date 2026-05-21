@@ -48,21 +48,21 @@ python ipl_tracker.py
 When prompted, enter the names (or partial names) of the two teams you want to track:
 
 ```
-TEAM 1: Mumbai
-TEAM 2: Chennai
+TEAM 1: India
+TEAM 2: Pakistan
 ```
 
 The tracker will search for any live match containing either team name and display the current scorecard:
 
 ```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                       IPL LIVE TRACKER
+                       Cricket LIVE TRACKER
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[T20] Mumbai Indians vs Chennai Super Kings
+[T20] India vs Pakistan
 Status: Match in progress
 Live Scorecard:
-  * Mumbai Indians Inning 1: 186/4 (20.0 ov)
-  * Chennai Super Kings Inning 1: 142/6 (17.2 ov)
+  * Indians Inning 1: 386/4 (20.0 ov)
+  * Pakistan Inning 1: 42/6 (17.2 ov)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
