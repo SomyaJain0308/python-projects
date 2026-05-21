@@ -1,6 +1,6 @@
-# 🏏 IPL Live Tracker
+# 🏏 Cricket Live Tracker
 
-A Python-based terminal tool that fetches and displays **live IPL match scores** using the [CricAPI](https://cricapi.com) service. It lets you search for a match by entering team names and instantly see the live scorecard in your terminal.
+A Python-based terminal tool that fetches and displays **live Cricket match scores** using the [CricAPI](https://cricapi.com) service. It lets you search for a match by entering team names and instantly see the live scorecard in your terminal.
 
 ---
 
