@@ -1,0 +1,1 @@
+I am not doing this wth is the point of doing this project no fucking way I am using this curses library every again and if that's the case then wtf would i go through the trouble of doing the projects and learning all those lame ass defines functions bruh
