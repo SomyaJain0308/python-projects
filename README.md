@@ -72,22 +72,4 @@ This keeps the code self-documenting and makes it easy to see what each project 
 
 - Each project folder has its own `README.md` explaining what it does, how to run it, and what I learned.
 - Projects are pushed as they're completed — the repo will fill up over time.
-- Credit to [Tech With Tim](https://www.youtube.com/@TechWithTim) for the original project ideas and walkthroughs.
-
-## 🚀 Auto Git Push
-
-If you want changes to be auto-pushed after 5 seconds of idle time, run the watcher task in VS Code:
-
-1. Open the Command Palette.
-2. Choose `Tasks: Run Task`.
-3. Select `Start Auto Git Push`.
-
-This starts `scripts/auto_git_push.py`, which:
-
-- detects file changes in the repository,
-- waits for 5 seconds of inactivity,
-- stages all changes,
-- creates an automatic commit,
-- pushes to the current branch.
-
-> Note: This will push directly to the current branch. If the remote branch has diverged, you may need to resolve the conflict manually.
+- Credit to [Tech With Tim](https://www.youtube.com/@TechWithTim) for the original project ideas.
